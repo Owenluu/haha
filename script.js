@@ -1,6 +1,9 @@
 import * as THREE from "three";
 console.log(THREE);
 
+// Canvas
+const canvas = document.querySelector("canvas.webgl");
+
 // scene
 const scene = new THREE.Scene();
 
